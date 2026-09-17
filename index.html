@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>
+        OvO
+    </title>
+
+</head>
+<body>
+    <h1>欢迎来到茗姐手搓网站TvT</h1>
+    <form action="/submit" method="post">
+        <label for="username">姓名: </label>
+        <input 
+        id="username"
+        name="username"
+        placeholder="请输入用户名"
+        type="text"
+        required
+        value="">
+        <br>
+
+        <label for="password">密码: </label>
+        <input 
+        id="password"
+        name="username"
+        placeholder="请输入密码"
+        type="password"
+        required
+        value="">
+        <br>
+
+        <label for="checkbox">兴趣：</label>
+        <input id="checkbox"  required name="checknox" placeholder="请输入你的兴趣" type="text" value="">
+        <br>
+        
+        <label>请选择你的性别:</label>
+        男<input type="radio" name="gender" value="男">
+        女<input type="radio" name="gender" value="女">
+        <br>
+
+        
+
+        报名活动:
+        <select name="activity">
+            <option value="三角洲">三角洲</option>
+            <option value="无畏契约">无畏契约</option>
+            <option value="CSGO">CSGO</option>
+            <option value="CF">CF</option>
+            <option value="金铲铲">金铲铲</option>
+            <option value="王者荣耀">王者荣耀</option>
+        </select>
+        <br>
+
+        <textarea name="description" id="12" cols="30" rows="10" placeholder="请填写对本网站的意见和建议ovo"></textarea>
+        <br>
+
+        <button type="submit">提交报名</button>
+        <button type="reset">重置</button>
+
+
+    </form>
+</body>
+</html>
